@@ -11,7 +11,7 @@
 
 ## Description
 
-## Note: this is the backend repository for the frontend code please visit https://github.com/Arthihan19/NBA-Client
+## Note: this is the backend repository for the frontend code please visit https://github.com/Danmascus/NBA-Frontend
 
 This project offers an engaging NBA betting game, complete with a virtual currency system. Initially, users are provided with 1,000 coins upon registration. Following this, they receive a daily bonus of 2,000 coins. These coins can be used for wagering on forthcoming NBA games, typically those that are scheduled to take place within the next 48 hours and come with pre-set betting odds. The game periodically distributes rewards based on the outcomes of these matches. Wins and losses from these bets are accordingly updated in the user's account, reflecting their betting performance. A leaderboard system also exists to see how you stack up with other users.
 
@@ -20,7 +20,7 @@ And the backend is hosted here: https://nba-backend-api.onrender.com/
 
 ## Tech-stack
 
-* [Frontend tech stack](https://github.com/Arthihan19/NBA-Client)
+* [Frontend tech stack](https://github.com/Danmascus/NBA-Frontend)
 * [NPM](https://www.npmjs.com/)
 * [Node.js](https://nodejs.org/en)
 * [Express](https://expressjs.com/)
@@ -295,9 +295,9 @@ CREATE TABLE users
 
 ## Usage
 
-* `git clone https://github.com/Arthihan19/NBA-Server`
+* `git clone https://github.com/Danmascus/NBA-Backend`
 * `cd api`
 * `docker compose up -d`
 * `./scripts/prepare.sh && ./scripts/run_sql`
 * `npm run start`
-* Make sure to also follow the frontend setup (https://github.com/Arthihan19/NBA-Client)
+* Make sure to also follow the frontend setup (https://github.com/Danmascus/NBA-Frontend)
